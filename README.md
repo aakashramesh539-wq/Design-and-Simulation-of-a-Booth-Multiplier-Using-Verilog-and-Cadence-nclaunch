@@ -141,8 +141,8 @@ initial begin
     clk = 0;
     load = 0;
     reset = 1'b1;         // Assert reset
-    M = 4'b0111;          // M = 7
-    Q = 4'b1011;          // Q = -5
+    M = 4'b0011;          // M = 3
+    Q = 4'b1100;          // Q = -4
 
     #20;
     load = 1;             // Load M and Q
@@ -164,13 +164,10 @@ endmodule
 ![image](https://github.com/user-attachments/assets/742744b0-15e9-4c7c-8e0e-13a77f25673e)
 
 ## Nclaunch Work Library Window
-
-![Screenshot 2025-05-21 163301](https://github.com/user-attachments/assets/4dc3ff0b-9533-4acd-98d2-e24df31eb513)
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 152623" src="https://github.com/user-attachments/assets/a0f767a2-f00e-4984-9b81-d6fce1d0de3c" />
 
 ## Simulation Results
-
-![Screenshot 2025-05-21 163243](https://github.com/user-attachments/assets/e7e22fcd-2e89-478a-9ccf-321bf9d6a07c)
-
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 153305" src="https://github.com/user-attachments/assets/8cb1535a-0299-4280-bb1b-b292705948b3" />
 
 ## Results
 Successfully designed and simulated a Booth Multiplier in Verilog.
